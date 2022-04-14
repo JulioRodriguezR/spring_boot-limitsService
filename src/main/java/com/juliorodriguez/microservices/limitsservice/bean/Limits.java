@@ -2,28 +2,28 @@ package com.juliorodriguez.microservices.limitsservice.bean;
 
 public class Limits {
 
-  private int min;
-  private int max;
+  private int minimum;
+  private int maximum;
 
   public Limits(int min, int max) {
-    this.min = min;
-    this.max = max;
+    this.minimum = min;
+    this.maximum = max;
   }
 
   public int getMax() {
-    return max;
+    return maximum;
   }
 
   public int getMin() {
-    return min;
+    return minimum;
   }
 
   public void setMin(int min) {
-    this.min = min;
+    this.minimum = min;
   }
 
   public void setMax(int max) {
-    this.max = max;
+    this.maximum = max;
   }
 
 }
